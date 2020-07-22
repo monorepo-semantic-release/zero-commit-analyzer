@@ -13,7 +13,7 @@ async function analyzeCommits(pluginConfig, context) {
     return releaseType;
   }
 
-  if (!context.lastRelease) {
+  if (Object.keys(context.lastRelease).length === 0) {
     logger.log('Skip initial release');
     return releaseType;
   }

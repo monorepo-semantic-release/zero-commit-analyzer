@@ -30,6 +30,7 @@ test('Skip no releases', async t => {
         message: 'fix: xxx'
       }
     ],
+    lastRelease: {},
     logger: t.context.logger,
   };
 
@@ -46,6 +47,7 @@ test('Skip initial release', async t => {
         message: 'feat: init'
       }
     ],
+    lastRelease: {},
     logger: t.context.logger,
   };
 
