@@ -1,6 +1,6 @@
 {
   "name": "@monorepo-semantic-release/zero-commit-analyzer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": "https://github.com/monorepo-semantic-release/zero-commit-analyzer.git",
   "author": "twinh <twinhuang@qq.com>",
