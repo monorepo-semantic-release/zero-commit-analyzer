@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/monorepo-semantic-release/zero-commit-analyzer/compare/v1.0.1...v1.0.2) (2022-05-01)
+
+
+### Bug Fixes
+
+* bump to 1.0.0 when message contains "[release 1.0.0]" ([2bf76d0](https://github.com/monorepo-semantic-release/zero-commit-analyzer/commit/2bf76d08883349401274d94c1d9ffd481c7155e8))
+
 ## [1.0.1](https://github.com/monorepo-semantic-release/zero-commit-analyzer/compare/v1.0.0...v1.0.1) (2020-07-22)
 
 
