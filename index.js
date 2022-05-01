@@ -24,8 +24,8 @@ async function analyzeCommits(pluginConfig, context) {
   }
 
   if (context.commits.find(commit => commit.message.includes('[release 1.0.0]'))) {
-    logger.log('Skip message contains [release 1.0.0]');
-    return releaseType;
+    logger.log('Bump to 1.0.0');
+    return 'major';
   }
 
   const result = {'major': 'minor', 'minor': 'patch'}[releaseType]

@@ -91,8 +91,8 @@ test('Skip message contains [release 1.0.0]', async t => {
 
   const releaseType = await t.context.m.analyzeCommits({}, context);
 
-  t.is(releaseType, 'minor');
-  t.is(t.context.log.args[4][0], 'Skip message contains [release 1.0.0]');
+  t.is(releaseType, 'major');
+  t.is(t.context.log.args[4][0], 'Bump to 1.0.0');
 });
 
 test('Downgrade release type to minor', async t => {
